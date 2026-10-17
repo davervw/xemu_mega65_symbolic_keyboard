@@ -1,6 +1,14 @@
 ﻿#Requires AutoHotkey v2.0
 #SingleInstance
 
+; ////////////////////////////////////////////////////////////////////
+; // Mega65_Symbolic.ahk - symbolic keyboard mapping for Xemu Mega65
+; // Copyright (c) 2026 by David R. Van Wagner
+; // MIT LICENSE
+; //
+; // https://github.com/davervw/xemu_mega65_symbolic_keyboard
+; ////////////////////////////////////////////////////////////////////
+
 ; Only activate these hotkeys when the Xemu emulator window is active
 #HotIf WinActive("ahk_exe xmega65.exe")
 
