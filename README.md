@@ -4,9 +4,7 @@
 
 AFIK, XEMU only supports positional keyboard mapping for MEGA65 and C65.  While the keyboard configuration can be changed, whole keys need to be moved, you cannot use the existing functionality to map unshifted, shifted, mega, and control settings separately.
 
-Using an AutoHotkey script, keys can be remapped specifically including shifted state that triggers, and resulting shifted state.
-
-This script works for my purposes, what I'm used to with my PC keyboard and using VICE C64 and C128.  Now I can have a smililar feel with Xemu Mega65. You may wish to adjust for your preferences.
+Using an AutoHotkey script, keys can be remapped specifically including shifted state that triggers, and resulting shifted state.  This script works for my purposes, what I'm used to with my PC keyboard and using VICE C64 and C128.  Now I can have a similar feel with Xemu Mega65. You may wish to adjust for your preferences.
 
 (Note this doesn't reassign Tab/Ctrl/Alt.  Some more work would be necessary for that.  C65 support is probably trivial, left as an exercise.)
 
@@ -15,6 +13,8 @@ Instructions:
 1. Install [AutoHotkey](https://www.autohotkey.com/) 2.0 for Windows
 2. Double click on Mega65_Symbolic.ahk file from this repository to start keyboard remap (designed to be active for Xemu Mega65 ONLY)
 3. Run Xemu Mega65 with new keyboard mapping (requires default mappings -- restore/update as appropriate)
+
+This project is software only, and the opposite of a [positional hardware/software keyboard mapping solution](https://github.com/davervw/c128_keyscan/tree/mega65_xemu_positional_hid_itsy_bitsy).
 
 Keyboard Press |Mega65 result|Note
 ---------------|-------------|----
